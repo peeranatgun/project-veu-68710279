@@ -28,7 +28,7 @@
             <li><a class="dropdown-item" href="/show_customer">Show customer</a></li>
             <li><a class="dropdown-item" href="/show_employees">Show employees</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Log out</a></li>
+            <li><a class="dropdown-item" href="/add_employee">Add </a></li>
           </ul>
         </li>
          <li class="nav-item dropdown">
@@ -56,10 +56,10 @@
     </div>
   </div>
 </nav>
-</div>
+
 <!--เปิดหน้าเพจตามที่คลิปเลือกเมนู ห้ามลบ-->  
   <router-view/>
-
+</div>
 </template>
 
 <style>
